@@ -19,8 +19,7 @@ return binarySearch(arr, l, mid - 1, x);
 // in right subarray
 return binarySearch(arr, mid + 1, r, x);
 }
-// We reach here when element is not present
-// in array
+
 return -1;
 }
 public static void main(String args[])
